@@ -29,5 +29,6 @@ public class HelloControllerTest {
 
         // check that the body contains a <p> tag with the text "¡Hola EMSAlumno!"
         assertThat(response.getBody()).contains("<p>¡Hola EMSAlumno!</p>");
+
     }
 }
